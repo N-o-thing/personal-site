@@ -28,14 +28,6 @@
 └── README.md
 ```
 
-## 本地预览
-
-直接在浏览器打开 `index.html` 就能看，不需要装任何东西。
-
-## 部署方式
-
-push 到 `main` 分支 → GitHub Actions 自动部署到 GitHub Pages。
-
 ## License
 
 MIT
