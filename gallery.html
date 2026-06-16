@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图库 · 小站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="brand">小站</a>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="gallery.html" class="active">图库</a>
+                <a href="about.html">关于</a>
+            </div>
+        </nav>
+
+        <h1 class="page-title">图库</h1>
+        <p class="page-subtitle">图片放到 <code>uploads/images/</code> 就会出现在这里</p>
+
+        <div class="gallery-grid">
+            <!-- 示例图片：放一张图片到 uploads/images/ 后，复制下面这行改一下文件名 -->
+            <!--
+            <div class="gallery-item">
+                <img src="uploads/images/你的图片.jpg" alt="图片描述">
+                <div class="gallery-caption">图片说明</div>
+            </div>
+            -->
+        </div>
+
+        <div class="empty-state">
+            <p>还没有图片 — 放一张到 <code>uploads/images/</code> 试试</p>
+        </div>
+
+        <h2 style="margin-top:48px; font-size:20px; font-weight:600;">文件下载</h2>
+        <p class="page-subtitle">文件放到 <code>uploads/files/</code> 就能被引用</p>
+
+        <ul class="file-list">
+            <!--
+            <li>
+                <span class="file-icon">📄</span>
+                <span class="file-name"><a href="uploads/files/示例文件.pdf">示例文件.pdf</a></span>
+                <span class="file-size">1.2 MB</span>
+            </li>
+            -->
+        </ul>
+
+        <div class="empty-state">
+            <p>还没有文件</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 · 小站</p>
+        </footer>
+    </div>
+</body>
+</html>

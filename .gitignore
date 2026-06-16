@@ -1,5 +1,4 @@
-uploads/
-__pycache__/
-*.pyc
-.env
-venv/
+# 静态站点 — 不需要忽略 uploads，
+# 图片和文件本来就要提交到仓库才会部署
+.DS_Store
+Thumbs.db
